@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    padding-top: 10px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_title {
+    color: black;
+}
+
+.hero__item {
+    background-color: rgb(49, 49, 49);
+    width: 300px;
+    height: 150px;
+}
+
+.hero_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
